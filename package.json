@@ -1,0 +1,27 @@
+{
+  "name": "osc-web-sender-local",
+  "version": "1.0.0",
+  "description": "インターネット接続がない完全にオフラインのローカルネットワークで、ブラウザからOSCメッセージを送信するためのWebアプリケーションです。",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santa-s4nt4/osc-web-sender-local.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/santa-s4nt4/osc-web-sender-local/issues"
+  },
+  "homepage": "https://github.com/santa-s4nt4/osc-web-sender-local#readme",
+  "dependencies": {
+    "node-osc": "^9.1.7",
+    "serve": "^14.2.4",
+    "ws": "^8.18.3"
+  }
+}
